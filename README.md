@@ -1,5 +1,7 @@
 # CukaiMax for AI agents
 
+[![Smithery](https://smithery.ai/badge/jakzaizzat/cukaimax-tax-authority)](https://smithery.ai/servers/jakzaizzat/cukaimax-tax-authority)
+
 CukaiMax gives ChatGPT, Codex, Claude, Gemini, Cursor, VS Code, GitHub Copilot,
 Kiro and any
 Streamable HTTP MCP client a source-linked Malaysian individual-tax authority
@@ -98,6 +100,12 @@ https://github.com/jakzaizzat/cukaimax-agent
 
 Kiro loads the portable skill and manages the remote MCP connection from the
 Agent Plugins manifests.
+
+### Smithery
+
+Discover, inspect, and connect the same hosted MCP through the
+[CukaiMax Smithery listing](https://smithery.ai/servers/jakzaizzat/cukaimax-tax-authority).
+Smithery has indexed all five read-only tools and eight public resources.
 
 ## Example prompts
 
