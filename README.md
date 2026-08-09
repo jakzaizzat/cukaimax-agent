@@ -1,6 +1,7 @@
 # CukaiMax for AI agents
 
-CukaiMax gives ChatGPT, Codex, Claude, Gemini, Cursor, VS Code and any
+CukaiMax gives ChatGPT, Codex, Claude, Gemini, Cursor, VS Code, GitHub Copilot,
+Kiro and any
 Streamable HTTP MCP client a source-linked Malaysian individual-tax authority
 layer.
 
@@ -17,6 +18,19 @@ Endpoint: `https://www.cukaimax.com/.well-known/mcp`
 No CukaiMax API key is required.
 
 ## Install
+
+### Portable Agent Plugin
+
+This repository is an [Agent Plugins 1.0](https://agent-plugins.org/)
+package. Its root `plugin.json`, `mcp.json`, `skills/` directory and public
+Streamable HTTP server can be loaded together by compatible clients including
+ChatGPT/Codex, Cursor, VS Code, GitHub Copilot and Kiro.
+
+Install the repository URL through the selected client's plugin interface:
+
+```text
+https://github.com/jakzaizzat/cukaimax-agent
+```
 
 ### ChatGPT and Codex
 
@@ -72,6 +86,18 @@ Use the one-click installer on
   }
 }
 ```
+
+### Kiro
+
+Open the Powers panel, choose **Add Custom Power → Import power from GitHub**,
+and install:
+
+```text
+https://github.com/jakzaizzat/cukaimax-agent
+```
+
+Kiro loads the portable skill and manages the remote MCP connection from the
+Agent Plugins manifests.
 
 ## Example prompts
 

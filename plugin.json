@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "cukaimax.tax-authority",
+  "version": "1.1.0",
+  "description": "Source-linked Malaysian individual and sole-proprietor tax guidance for AI agents.",
+  "author": {
+    "name": "CukaiMax",
+    "email": "hello@cukaimax.com",
+    "url": "https://www.cukaimax.com"
+  },
+  "homepage": "https://www.cukaimax.com/install-agent",
+  "repository": "https://github.com/jakzaizzat/cukaimax-agent",
+  "license": "MIT",
+  "keywords": [
+    "malaysia-tax",
+    "hasil",
+    "lhdn",
+    "form-b",
+    "form-be",
+    "sole-proprietor"
+  ]
+}
