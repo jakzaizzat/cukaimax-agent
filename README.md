@@ -1,6 +1,7 @@
 # CukaiMax for AI agents
 
 [![Smithery](https://smithery.ai/badge/jakzaizzat/cukaimax-tax-authority)](https://smithery.ai/servers/jakzaizzat/cukaimax-tax-authority)
+[![skills.sh](https://skills.sh/b/jakzaizzat/cukaimax-agent)](https://skills.sh/jakzaizzat/cukaimax-agent/cukaimax-tax-authority)
 
 CukaiMax gives ChatGPT, Codex, Claude, Gemini, Cursor, VS Code, GitHub Copilot,
 Kiro and any
@@ -106,6 +107,17 @@ Agent Plugins manifests.
 Discover, inspect, and connect the same hosted MCP through the
 [CukaiMax Smithery listing](https://smithery.ai/servers/jakzaizzat/cukaimax-tax-authority).
 Smithery has indexed all five read-only tools and eight public resources.
+
+### Agent Skills registry
+
+Install the indexed CukaiMax skill through the portable Agent Skills CLI:
+
+```sh
+npx skills add jakzaizzat/cukaimax-agent --skill cukaimax-tax-authority
+```
+
+The public listing is available on
+[skills.sh](https://skills.sh/jakzaizzat/cukaimax-agent/cukaimax-tax-authority).
 
 ## Example prompts
 
