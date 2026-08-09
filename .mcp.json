@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "cukaimax-tax-authority": {
+      "type": "http",
+      "url": "https://www.cukaimax.com/.well-known/mcp"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+interface:
+  display_name: "CukaiMax Tax Authority"
+  short_description: "Source-linked Malaysian individual tax workflows"
+  default_prompt: "Use $cukaimax-tax-authority to answer this Malaysian individual-tax question with the applicable CukaiMax release and official citations."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "cukaimax-tax-authority"
+      description: "CukaiMax Malaysian Tax Authority MCP"
+      transport: "streamable_http"
+      url: "https://www.cukaimax.com/.well-known/mcp"

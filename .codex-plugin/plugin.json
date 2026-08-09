@@ -1,0 +1,42 @@
+{
+  "name": "cukaimax",
+  "version": "1.0.0",
+  "description": "Source-linked Malaysian individual and sole-proprietor tax guidance for AI agents.",
+  "author": {
+    "name": "CukaiMax",
+    "email": "hello@cukaimax.com",
+    "url": "https://www.cukaimax.com"
+  },
+  "homepage": "https://www.cukaimax.com/install-agent",
+  "repository": "https://github.com/jakzaizzat/cukaimax-agent",
+  "license": "MIT",
+  "keywords": [
+    "malaysia-tax",
+    "hasil",
+    "lhdn",
+    "form-b",
+    "form-be",
+    "sole-proprietor"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "CukaiMax Malaysian Tax",
+    "shortDescription": "Source-linked Malaysian tax guidance",
+    "longDescription": "Research Malaysian individual tax rules, choose Form BE or Form B, check sole-proprietor preparation readiness, and prepare supported YA2025 work with official-source citations and explicit assessment-year boundaries.",
+    "developerName": "CukaiMax",
+    "category": "Finance",
+    "capabilities": ["Read", "Research", "Calculate"],
+    "websiteURL": "https://www.cukaimax.com/tax-authority",
+    "privacyPolicyURL": "https://www.cukaimax.com/privacy",
+    "termsOfServiceURL": "https://www.cukaimax.com/terms",
+    "defaultPrompt": [
+      "Should I use Form B or Form BE for YA2025?",
+      "What can a Grab driver deduct for YA2025?",
+      "Check my Form B preparation readiness."
+    ],
+    "brandColor": "#7C3AED",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
+  }
+}

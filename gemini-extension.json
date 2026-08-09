@@ -1,0 +1,19 @@
+{
+  "name": "cukaimax",
+  "version": "1.0.0",
+  "description": "Source-linked Malaysian individual and sole-proprietor tax guidance.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "cukaimax-tax-authority": {
+      "httpUrl": "https://www.cukaimax.com/.well-known/mcp",
+      "timeout": 30000,
+      "includeTools": [
+        "list_tax_authority_releases",
+        "get_tax_authority_release",
+        "search_tax_authority",
+        "prepare_be_2025_draft",
+        "assess_form_b_2025_readiness"
+      ]
+    }
+  }
+}

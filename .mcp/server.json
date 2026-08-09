@@ -1,0 +1,33 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.jakzaizzat/cukaimax-tax-authority",
+  "title": "CukaiMax Malaysian Tax Authority",
+  "description": "Source-linked Malaysian individual and sole-proprietor tax guidance for AI agents.",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.cukaimax.com/tax-authority",
+  "icons": [
+    {
+      "src": "https://www.cukaimax.com/icon.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/jakzaizzat/cukaimax-agent",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.cukaimax.com/.well-known/mcp"
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "jurisdiction": "MY",
+      "assessmentYears": [2025, 2026],
+      "authentication": "none",
+      "dataHandling": "Public, read-only, stateless; no taxpayer identifiers required"
+    }
+  }
+}
