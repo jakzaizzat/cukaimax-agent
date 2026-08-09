@@ -107,6 +107,8 @@ Agent Plugins manifests.
 Discover, inspect, and connect the same hosted MCP through the
 [CukaiMax Smithery listing](https://smithery.ai/servers/jakzaizzat/cukaimax-tax-authority).
 Smithery has indexed all five read-only tools and eight public resources.
+The official registry release is also indexed as a hosted connector on
+[Glama](https://glama.ai/mcp/connectors/io.github.jakzaizzat/cukaimax-tax-authority).
 
 ### Agent Skills registry
 
