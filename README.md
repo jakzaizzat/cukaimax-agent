@@ -2,6 +2,7 @@
 
 [![Smithery](https://smithery.ai/badge/jakzaizzat/cukaimax-tax-authority)](https://smithery.ai/servers/jakzaizzat/cukaimax-tax-authority)
 [![skills.sh](https://skills.sh/b/jakzaizzat/cukaimax-agent)](https://skills.sh/jakzaizzat/cukaimax-agent/cukaimax-tax-authority)
+[![jakzaizzat/cukaimax-agent MCP server](https://glama.ai/mcp/servers/jakzaizzat/cukaimax-agent/badges/score.svg)](https://glama.ai/mcp/servers/jakzaizzat/cukaimax-agent)
 
 CukaiMax gives ChatGPT, Codex, Claude, Gemini, Cursor, VS Code, GitHub Copilot,
 Kiro and any
@@ -108,7 +109,12 @@ Discover, inspect, and connect the same hosted MCP through the
 [CukaiMax Smithery listing](https://smithery.ai/servers/jakzaizzat/cukaimax-tax-authority).
 Smithery has indexed all five read-only tools and eight public resources.
 The official registry release is also indexed as a hosted connector on
-[Glama](https://glama.ai/mcp/connectors/io.github.jakzaizzat/cukaimax-tax-authority).
+[Glama](https://glama.ai/mcp/connectors/io.github.jakzaizzat/cukaimax-tax-authority)
+and as an open-source server at
+[glama.ai/mcp/servers/jakzaizzat/cukaimax-agent](https://glama.ai/mcp/servers/jakzaizzat/cukaimax-agent).
+This repository includes a stdio catalog adapter (`npm start`) so Glama can
+start the process and run `initialize` / `tools/list`. Production clients
+should keep using the hosted Streamable HTTP endpoint.
 
 ### Agent Skills registry
 

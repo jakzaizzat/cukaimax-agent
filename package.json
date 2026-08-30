@@ -1,0 +1,18 @@
+{
+  "name": "cukaimax-tax-authority",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Stdio catalog adapter so Glama can start this repo and run initialize/tools/list. Production clients should use the hosted Streamable HTTP endpoint.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jakzaizzat/cukaimax-agent.git"
+  },
+  "scripts": {
+    "start": "node stdio-server.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.20.1"
+  }
+}

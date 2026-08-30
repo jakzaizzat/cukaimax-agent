@@ -1,0 +1,12 @@
+.git
+.github
+node_modules
+skills
+submissions
+*.md
+.codex-plugin
+.mcp
+.mcp.json
+gemini-extension.json
+mcp.json
+plugin.json
